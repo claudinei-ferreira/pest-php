@@ -1,0 +1,22 @@
+{
+    "name": "claufinei-ferreira/pest-php",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Claudinei Ferreira de Jesus",
+            "email": "claufersus@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.23"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
